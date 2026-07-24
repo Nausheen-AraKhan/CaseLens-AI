@@ -61,6 +61,3 @@ CaseLens AI aims to simplify legal research by helping users:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
