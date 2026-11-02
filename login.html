@@ -4,8 +4,35 @@
     <title>Sign In - CaseLens AI</title>
 </head>
 <body>
-    <h1>Welcome Back!</h1>
-    <p>Sign in to continue to CaseLens AI</p>
-    <a href="index.html">Back to Home</a>
+    <header>
+        <nav>
+           <a href="index.html">Home</a>
+           <a href="about.html">About</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Sign In</h1>
+        <p>Sign in to continue to CaseLens AI</p>
+        <form action="#" method="post">
+            <div>
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+            <div>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div>
+                <input type="checkbox" id="remember" name="remember" required>
+                <label for="remember">Remember me</label>
+            </div>
+            <button type="submit">Sign In</button>
+        </form>
+        <p><a href="#">Forgot Password?</a></p>
+        <p>Don't have an account? <a href="#">Sign Up</a></p>
+    </main>
+    <footer>
+        <p><em>CaseLens AI assists legal research. It is not a substitute for professional legal advice.</em></p>
+    </footer>
 </body>
 </html>

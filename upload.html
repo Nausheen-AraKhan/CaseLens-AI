@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Upload Case Documents - CaseLens AI</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Upload Case Documents</h1>
+        <p>Upload a legal case document to get AI-powered insights.</p>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div>
+                <label for="case-file">Case Title</label><br>
+                <input type="text" id="case-title" name="case-title" required>
+            </div>
+            <div>
+                <label for="case-file">Choose a document (PDF,DOCX or TXT)</label><br>
+                <input type="file" id="case-file" name="case-file" accept=".pdf,.docx,.txt" required>
+            </div>
+            <button type="submit">Upload and Analyse</button>
+        </form>
+        <p><strong>Privacy Note:</strong> Your document may contain Confidential Information.</p>
+    </main>
+    <footer>
+        <p><em>CaseLens AI assists legal research. It is not a substitute for professional legal advice.</em></p>
+    </footer>
+</body>
+</html>
