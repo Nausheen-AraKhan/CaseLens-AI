@@ -28,8 +28,27 @@
                     <input type="checkbox" id="insights" name="sections" value="insights">
                     <label for="insights">Key Insights</label>
                 </div>
+                <div>
+                    <input type="checkbox" id="arguments" name="sections" value="arguments">
+                    <label for="arguments">Legal Arguments</label>
+                </div>
             </fieldset>
+            <fieldset>
+                <legend>Report Format</legend>
+                <div>
+                    <input type="radio" id="pdf" name="format" value="pdf" checked>
+                    <label for="pdf">PDF (Recommended)</label>
+                </div>
+                <div>
+                    <input type="radio" id="docx" name="format" value="docx">
+                    <label for="docx">DOCX</label>
+                </div>
+            </fieldset>
+            <button type="submit">Generate Report</button>
         </form>
     </main>
+    <footer>
+        <p><em>CaseLens AI assists legal research. It is not a substitute for professional legal advice.</em></p>
+    </footer>
 </body>
 </html>
